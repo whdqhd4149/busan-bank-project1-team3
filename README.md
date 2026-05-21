@@ -51,8 +51,9 @@ Spring Boot, MyBatis, Oracle을 기반으로 고객 기능과 관리자 기능�
 
 관리자 페이지에서 등록된 펀드 상품 목록을 조회하고, 목록의 돋보기 버튼을 클릭하면 선택한 펀드 상품의 상세 정보를 모달 화면으로 확인할 수 있도록 구현했습니다.
 
-<img width="896" height="722" alt="펀드 목록" src="https://github.com/user-attachments/assets/ca1354ef-641e-400f-94f6-e21dbb2c2ac2" />
-<img width="786" height="738" alt="펀드 목록 돋보기 상세" src="https://github.com/user-attachments/assets/5e4554b0-cc06-42cc-a36f-b3fc3ca98d9e" />
+<img src="src="https://github.com/user-attachments/assets/ca1354ef-641e-400f-94f6-e21dbb2c2ac2"" width="700">
+
+<img src="src="https://github.com/user-attachments/assets/5e4554b0-cc06-42cc-a36f-b3fc3ca98d9e"" width="700">
 
 - 펀드 상품 목록 조회
 - 펀드 상품코드 기준 상세 데이터 조회
@@ -61,7 +62,7 @@ Spring Boot, MyBatis, Oracle을 기반으로 고객 기능과 관리자 기능�
 
 ### 금융 게시물 관리
 
-<img width="891" height="695" alt="게시물" src="https://github.com/user-attachments/assets/7f23cdf7-5271-4bd5-ba06-6436ce4afe3f" />
+<img src="src="https://github.com/user-attachments/assets/7f23cdf7-5271-4bd5-ba06-6436ce4afe3f"" width="700">
 
 관리자 화면에서 정보공시, 수시공시, 펀드시황, 가이드, 펀드정보 게시판을 관리할 수 있도록 구현했습니다.
 
