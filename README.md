@@ -232,4 +232,4 @@ JavaScript 요청 경로와 서버 파일 규칙을 직접 비교하며
 
 # 🎥 Demo Video
 
-(영상 링크 삽입)
+[🎬 Demo Video](https://youtu.be/JDzkgc_QLtk)
