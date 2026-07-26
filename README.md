@@ -35,7 +35,7 @@ BNK 금융상품 통합 관리 서비스의 사용자 메인 화면입니다.
 
 펀드 상품을 조회하고 투자 성향 분석, 고객센터, AI 챗봇 등의 기능으로 이동할 수 있습니다.
 
-![사용자 메인페이지](docs/images/UserMain.jpg)
+![사용자 메인페이지](docs/images/Main.jpg)
 
 ### 관리자 메인페이지
 
@@ -152,7 +152,7 @@ Oracle 상품 데이터 조회
 
 ### 관리자 상품 목록 화면
 
-![관리자 상품 목록](docs/images/AdminProductList.jpg)
+![관리자 상품 목록](docs/images/Fundlist.jpg)
 
 ---
 
@@ -192,7 +192,7 @@ JSON 데이터 반환
 
 ### 관리자 상품 상세 화면
 
-![관리자 상품 상세 모달](docs/images/AdminProductDetail.jpg)
+![관리자 상품 상세 모달](docs/images/FundDetail.jpg)
 
 ---
 
@@ -222,7 +222,7 @@ Oracle 데이터 반영
 
 ### 정보공시 관리 화면
 
-![정보공시 관리](docs/images/AdminDisclosure.jpg)
+![정보공시 관리](docs/images/Info.jpg)
 
 ---
 
