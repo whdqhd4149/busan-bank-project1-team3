@@ -65,7 +65,7 @@ BNK 금융상품 통합 관리 서비스의 관리자 메인 화면입니다.
 
 ## 🏛️ 시스템 아키텍처
 
-<!-- 시스템 아키텍처 이미지 첨부 -->
+![BNK 시스템 아키텍처](docs/images/bnk-web-architecture-mybatis.svg)
 
 ---
 
