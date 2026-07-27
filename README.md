@@ -301,34 +301,6 @@ JavaScript에서 생성하는 문서 요청 URL의 파일명을 서버의 실제
 
 ---
 
-### 3. MyBatis Mapper namespace 불일치
-
-#### 문제
-
-관리자 정보공시 기능에서 Mapper 인터페이스에 작성한 메서드와 Mapper XML의 SQL이 정상적으로 연결되지 않는 문제가 발생했습니다.
-
-이로 인해 정보공시 게시물과 첨부파일을 등록하거나 조회하는 과정에서 해당 SQL을 찾을 수 없었습니다.
-
-#### 원인
-
-Mapper 인터페이스의 패키지 경로를 `mapper.admin`으로 변경했지만 Mapper XML의 `namespace`에는 기존 패키지 경로가 남아 있었습니다.
-
-MyBatis는 Mapper 인터페이스의 전체 경로와 XML의 `namespace`를 기준으로 메서드와 SQL을 연결하기 때문에 두 경로가 다르면 매핑되지 않습니다.
-
-#### 해결
-
-Java Mapper의 전체 패키지 경로와 Mapper XML의 `namespace`를 동일하게 수정했습니다.
-
-```xml
-<mapper namespace="kr.co.bnk.bnk_project.mapper.admin.InfoPostMapper">
-```
-
-또한 게시물과 첨부파일 처리를 `InfoPostMapper`와 `InfoAttachmentMapper`로 분리하여 관리하도록 구성했습니다.
-
-수정 후 정보공시 게시물과 첨부파일 관련 SQL이 정상적으로 연결되는 것을 확인했습니다.
-
----
-
 ## 💡 구현 결과 및 회고
 
 관리자 상품 목록 조회부터 상품 선택, 상세 데이터 요청, Oracle 조회, JSON 응답, 모달 출력까지 이어지는 상품 상세 조회의 전체 흐름을 구현했습니다.
